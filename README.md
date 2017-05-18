@@ -36,7 +36,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "whatwg-fetch/valid-method": 2
+        "whatwg-fetch/valid-method": 2,
         "whatwg-fetch/uppercase-method": 2
     }
 }
