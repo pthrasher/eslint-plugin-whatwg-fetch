@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-whatwg-fetch",
+  "version": "1.0.0",
+  "description": "rules related to whatwg-fetch",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Philip Thrasher <philipthrasher@gmail.com>",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "did-you-mean": "^0.0.1",
+    "lodash": "^4.17.4",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "license": "MIT"
+}
