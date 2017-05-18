@@ -36,10 +36,12 @@ function makeInvalidTestCaseSet(invalidMethod) {
     {
       code: simpleTestCase(invalidMethod),
       errors: [ errMsg ],
+      output: simpleTestCase(invalidMethod.toUpperCase()),
     },
     {
       code: advancedTestCase(invalidMethod),
       errors: [ errMsg ],
+      output: advancedTestCase(invalidMethod.toUpperCase()),
     },
   ];
 }
