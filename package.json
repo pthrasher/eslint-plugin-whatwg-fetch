@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-whatwg-fetch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "rules related to whatwg-fetch",
   "keywords": [
     "eslint",
